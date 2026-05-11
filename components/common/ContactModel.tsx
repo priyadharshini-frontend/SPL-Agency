@@ -26,7 +26,7 @@ export default function ContactModel() {
     const form = e.currentTarget;
 
     const data = {
-      name: form.name.value,
+      name: form.name,
       email: form.email.value,
       business: form.business.value,
       message: form.message.value,
